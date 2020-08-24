@@ -1,0 +1,197 @@
+body{
+    background-color: gray;
+}
+
+h5{
+    background-color: azure;
+    border-radius: 0.9rem 0.9rem 0 0;
+}
+
+.system-comands{
+    height: auto;
+    width: 400px;
+    background-color: aliceblue;
+    /* margin: 1rem 5rem; */
+    border: 2px black solid;
+    border-radius: 1rem;
+    /* float: left; */
+    z-index: 1;
+}
+
+#comand > button{
+    background-color: aliceblue;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    margin: 5px;
+    border-radius: 1rem;
+    position: relative;
+    display: inline-flex;
+}
+
+#comand > button:hover{
+    background-color: rgb(173, 216, 253);
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    margin: 5px;
+    border-radius: 1rem;
+}
+
+#comand > button:active{
+    background-color: rgb(153, 207, 255);
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    margin: 5px;
+    border-radius: 1rem;
+}
+
+#comand > button:focus{
+    background-color: rgb(153, 207, 255);
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    margin: 5px;
+    border-radius: 1rem;
+    outline: none;
+}
+
+.container {
+    width:auto;
+    height:auto;
+    /* border: 1px solid #000000; */
+    display: flex;
+    flex-wrap: wrap;
+    align-content:stretch;
+   }
+
+.main-program{
+    width: 60%;
+    margin-top: 1rem;
+}
+
+.main-system{
+    width: 40%;
+    margin-top: 1rem;
+}
+
+.system-act{
+    height: auto;
+    width: 400px;
+    background-color: azure;
+    margin-top: 1rem;
+    /* margin-top: -350px; */
+    border: 2px black solid;
+    border-radius: 1rem;
+    /* float: left; */
+    z-index: 2;
+}
+
+#main_act{
+    background-color: bisque;
+}
+
+#main_act > button{
+    background-color: aliceblue;
+    color: black;
+    font-size: 17px;
+    text-align: center;
+    margin: 0.5rem;
+    border-radius: 1rem;
+}
+
+#main_act > button:hover{
+    background-color: rgb(173, 216, 253);
+    color: black;
+    font-size: 17px;
+    text-align: center;
+    margin: 0.5rem;
+    border-radius: 1rem;
+}
+
+#main_act > button:focus{
+    background-color: rgb(173, 216, 253);
+    color: black;
+    font-size: 17px;
+    text-align: center;
+    margin: 0.5rem;
+    border-radius: 1rem;
+    outline: none;
+}
+
+#act > button{
+    background-color: aliceblue;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    margin: 0.5rem;
+    border-radius: 1rem;
+}
+
+#act > button:hover{
+    background-color: rgb(173, 216, 253);
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    margin: 0.5rem;
+    border-radius: 1rem;
+}
+
+#act > button:focus{
+    background-color: rgb(173, 216, 253);
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    margin: 0.5rem;
+    border-radius: 1rem;
+    outline: none;
+}
+
+.main-act{
+    border: 1px solid gray;
+    border-radius: 1rem;
+}
+
+.programm{
+    background-color: bisque;
+    height: auto ;
+    width: auto;
+    margin: 1rem;
+    border: 2px black solid;
+    border-radius: 1rem;
+    /* float: right; */
+    overflow: scroll;
+    padding-bottom: 2rem;
+    scroll-margin-right: 5px;
+    max-height: 558px;
+}
+
+.programms{
+    margin: 2px 1rem;
+    border: 1px black solid;
+    height: auto ;
+    width: auto;
+    background-color: cornflowerblue;
+    width: 240px;
+    float: left;
+    border-radius: 1rem;
+}
+
+.hr-line{
+    color: black; 
+    border: 1px black solid;
+}
+
+.div-pad{
+    padding: 1rem;
+}
+
+.style-text-programm{
+    color: #628efc;
+}
+
+
+
+
+
