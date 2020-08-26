@@ -188,7 +188,15 @@ h5{
 }
 
 .style-text-programm{
-    color: #3d39fa;
+    color: #3d39fa;   
+}
+
+.valid{
+    border: 2px solid green;
+}
+
+.invalid{
+    border: 2px solid red;
 }
 
 .output{

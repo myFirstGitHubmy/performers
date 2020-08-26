@@ -59,7 +59,7 @@
                       </button>
                     </div>
                     <div class="modal-body">
-                      <div>
+                      <div> 
                           <!-- <div>
                             <p class="font-weight-bold">Присвоить:</p>
                           </div> -->
@@ -68,13 +68,13 @@
                             <div class="input-group-prepend">
                                 <span class="input-group-text" id="assign_def">Присвоить </span>
                               </div>
-                            <input id="assign" value type="text" placeholder="..." class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                            <input id="assign" type="text" placeholder="..."  class="form-control" required aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
                           </div>
                       </div>
                     </div>
                     <div class="modal-footer">
                       <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                      <button id="assign_button_OK" type="button" class="btn btn-primary" onclick="assign();clear_input()">ОК</button>
+                      <button id="assign_button_OK" type="button" class="btn btn-primary" data-dismiss="modal" onclick="assign();clear_input()">ОК</button>
                     </div>
                   </div>
                 </div>
