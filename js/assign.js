@@ -14,19 +14,13 @@ function assign(){//todo/will add validation on input[#assign]
 
    string_prog += assign_var.innerHTML + assign_variable.value +" " + assign_val.innerHTML + assign_value.value
         //тег div>span
-        let divEl = document.createElement("div")
-        let spanEl = document.createElement("span")
-        divEl.className="prog-div"
-        spanEl.innerHTML=string_prog
-        divEl.append(spanEl)
-        document.getElementById("programm").append(divEl)
+        setTextCreateElement(string_prog)
         // в SYS_VARIABLE добавляем переменную со значением
         setSysVariable(assign_variable.value,assign_value.value)
         setList(level)
-        setIncSysIndex()
         // assign_butt_OK.setAttribute("data-dismiss","modal")
         printMap(SYS_VARIABLE)
         printMap(LIST)
         console.log(getSizeMap(SYS_VARIABLE))
-    clear_input();
+        clear_input();
 }
