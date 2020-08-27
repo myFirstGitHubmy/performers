@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <script src="js/script.js"></script>
+    <script src="js/getter.js"></script>
+    <script src="js/setter.js"></script>
+    <script src="js/assign.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
@@ -60,15 +63,15 @@
                     </div>
                     <div class="modal-body">
                       <div> 
-                          <!-- <div>
-                            <p class="font-weight-bold">Присвоить:</p>
-                          </div> -->
-                          
                         <div class="input-group mb-3">
                             <div class="input-group-prepend">
-                                <span class="input-group-text" id="assign_def">Присвоить </span>
+                                <span class="input-group-text" id="assign_var">Присвоить </span>
                               </div>
-                            <input id="assign" type="text" placeholder="..."  class="form-control" required aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                            <input id="assign_variable" type="text" placeholder="variable"  class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                            <div class="input-group-prepend">
+                              <span class="input-group-text" id="assign_val"> значение  </span>
+                            </div>
+                            <input id="assign_value" type="text" placeholder="value"  class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
                           </div>
                       </div>
                     </div>
@@ -154,7 +157,7 @@
                     <h5 style="text-align: center;">Система команд<hr class="hr-line"></h5>
                     <div  id="comand" class="div-pad">
                         <button type="button" data-toggle="modal" data-target="#exampleModal1">Запросить</button><br>
-                        <button type="button" data-toggle="modal" onclick="stat()" data-target="#exampleModal2" >Присвоить ... значение ... </button><br>
+                        <button type="button" data-toggle="modal" data-target="#exampleModal2" >Присвоить ... значение ... </button><br>
                         <button type="button" data-toggle="modal" data-target="#exampleModal3">Сообщить</button><br>
                         <button type="button" data-toggle="modal" data-target="#exampleModal4">Стоп</button><br>
                     </div>

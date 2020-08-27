@@ -60,6 +60,7 @@ h5{
 .container {
     width:auto;
     height:auto;
+    /* max-width: 100%; */
     /* border: 1px solid #000000; */
     display: flex;
     flex-wrap: wrap;
@@ -171,9 +172,10 @@ h5{
     margin: 2px 1rem;
     border: 1px black solid;
     height: auto ;
-    width: auto;
+    min-width: 240px;
     background-color: cornflowerblue;
-    width: 240px;
+    /* width: 240px; */
+    max-width: 400px;
     float: left;
     border-radius: 1rem;
 }
@@ -218,6 +220,14 @@ h5{
     border-radius: 0rem 0rem 1rem 1rem ;
     bottom: 1rem;
     padding: 2rem;
+}
+
+.prog-div{
+    border: 1px solid black;
+    border-radius: 3px;
+    margin: 10px;
+    width: auto;
+    padding: 5px;
 }
 
 
